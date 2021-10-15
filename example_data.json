@@ -1,0 +1,37 @@
+{
+    "objects": [{
+        "id": "my-mod:hat",
+        "action": "add",
+        "components": [
+            {
+                "componentType": "ItemComponent",
+                "values": {
+                    "equipLocation": "head"
+                }
+            }
+        ],
+        "values": {
+            "name": "Nice Hat"
+        }
+    }, {
+        "id": "my-mod:pants",
+        "action": "add",
+        "components": [
+            "my-mod:components:blue-pants"
+        ],
+        "values": {
+            "name": "Cool Pants"
+        }
+    }],
+    "components": [
+        {
+            "id": "my-mod:components:blue-pants",
+            "componentType": "ItemComponent",
+            "values": {
+                "equipLocation": "legs",
+                "baseValue": 3,
+                "color1": 9
+            }
+        }
+    ]
+}
